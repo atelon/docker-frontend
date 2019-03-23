@@ -8,7 +8,7 @@ services:
     volumes:
       -  node-vol:/app
     ports:
-      - '9000:9000'
+      - '80:9000'
     networks:
       - nodenetwork
 
